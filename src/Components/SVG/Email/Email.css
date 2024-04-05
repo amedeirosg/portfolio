@@ -1,0 +1,18 @@
+.email-svg{
+    transition: .1s ease-in-out ;
+}
+
+.email-svg:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+}
+
+.email-svg:hover path{
+    stroke:black;
+}
+
+@media (max-width:605px){
+    .email-svg{
+        width: 80%;
+    }
+}

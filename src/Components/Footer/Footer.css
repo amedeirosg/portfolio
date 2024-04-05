@@ -1,0 +1,22 @@
+.footer{
+    text-align: center;
+    margin-top:70px;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    padding: 0 5%;
+    background-color: var(--purple-violet);
+}
+
+.footer-title{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:50px;
+    text-align: left;
+}
+
+.footer-form{
+    border:1px solid red;
+    position:relative;
+}

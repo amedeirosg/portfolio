@@ -1,0 +1,18 @@
+.linkedin-svg{
+    transition: .1s ease-in-out;
+}
+
+.linkedin-svg:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+}
+
+.linkedin-svg:hover path{
+    fill:black;
+}
+
+@media (max-width:605px){
+    .linkedin-svg{
+        width: 80%;
+    }
+}

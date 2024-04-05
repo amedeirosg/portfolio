@@ -1,0 +1,18 @@
+.github-svg{
+    transition: .1s ease-in-out;
+}
+
+.github-svg:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+}
+
+.github-svg:hover path{
+    fill:black;
+}
+
+@media (max-width:605px){
+    .github-svg{
+        width: 80%;
+    }
+}

@@ -1,0 +1,74 @@
+main{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:30px;
+    margin: 0 auto;
+}
+
+.presentation{
+    padding: 0 5%;
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+.presentation h1{
+    font-size: 4.5rem;
+    color: var(--purple-violet-burger)
+}
+
+.presentation-sideimg{
+    width: 50%;
+}
+
+.presentation-aboutme-btn{
+    margin-top:30px;
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+}
+
+.presentation-aboutme-btn h3{
+    color: var(--purple-violet)
+}
+
+.arrow-svg{
+    transition: .2s ease-in-out;
+}
+
+.presentation-aboutme-btn:hover .arrow-svg{
+    transform: rotate(90deg);
+}
+
+@media (max-width: 1430px){
+    main{
+        flex-direction: column;
+    }
+
+    .presentation{
+        width: 100%;
+        margin-top:50px;
+    }
+
+    .presentation-title{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .presentation-aboutme-btn{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .presentation-sideimg{
+        width: 100%;
+        text-align: center;
+        margin-top:50px;
+    }
+
+}

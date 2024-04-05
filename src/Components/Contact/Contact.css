@@ -1,0 +1,118 @@
+.contact{
+    font-size:2em;
+    margin-bottom: 30px;
+}
+
+.contact-form{
+    background-color: white;
+    width: 35rem;
+    padding:1rem;
+    border-radius:1rem;
+    margin-top:2rem;
+    font-size:1em;
+
+}
+
+.contact-name,.contact-email,.contact-message{
+    padding:0.5rem 1rem;
+    display:flex;
+    flex-direction: column;
+    margin-top:1rem;
+    border-radius:1rem;
+    font-size:0.4em;
+    color:grey;
+    text-align: left;
+}
+
+.contact-name input,.contact-email input,.contact-message textarea{
+    all:unset;
+    height: 2rem;
+    margin-top:0.3rem;
+    color:black;
+    
+}
+
+.contact-message textarea{
+    height: 16rem;
+    word-wrap: break-word;
+}
+
+.contact-message{
+    height: 16rem;
+}
+
+
+.border-active{
+    border: 2.5px solid rgba(128, 128, 128, 0.459);
+    padding:0.5rem 1rem;
+    display:flex;
+    flex-direction: column;
+    margin-top:1rem;
+    border-radius:1rem;
+    font-size:0.4em;
+    color:grey;
+}
+
+.contact-submit-area{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:3rem;
+    font-size:1.1em;
+}
+
+button{
+    all:unset;
+    padding:1rem 2.8rem;
+    font-size: 0.4em;
+    color:white;
+    background-color: blueviolet;
+    border-radius: 1rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+}
+
+button::before{
+    content:'';
+    position: absolute;
+    border-radius:0.8rem;
+    top:50%;
+    left:50%;
+    width: 0%;
+    height: 0%;
+    transform: translate(-50%, -50%);
+    transition: .2s ease-in-out;
+    background-color:rgba(255, 255, 255, 0.13);
+}
+
+button:hover::before{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-submit-social{
+    width: 12rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media (max-width:615px){
+    .contact{
+        border:1px solid red;
+        width: 100%;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+
+    .contact-submit-area {
+        width: 100%;
+    }
+
+}
