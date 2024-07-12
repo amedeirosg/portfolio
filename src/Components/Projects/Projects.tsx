@@ -37,7 +37,9 @@ export default function Projects() {
               <span className="text-[--red] font-bold gap-">
                 PROJETO IRMÃO ANIMAL
               </span>
-              <span>Website Projeto irmão animal de Pedro Leopoldo</span>
+              <span>
+                Website Voluntário - Projeto irmão animal de Pedro Leopoldo
+              </span>
             </div>
             <span className="font-bold text-[--gray50]">Finalizado</span>
           </div>
